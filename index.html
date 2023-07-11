@@ -9,10 +9,13 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 </head>
-<header>  
-    
+<header>
+
+<!--Side navbar -->
+
+
 <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
         <a class="navbar-brand me-auto d-lg-none"  href="#" ><img class="icono" src="images/Logo-Lil-Peep.png" alt=""></a>
@@ -20,7 +23,7 @@
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse collapse-horizontal navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -70,15 +73,6 @@
     </div>
 </nav>
 <br><br>
- <!--
-
-
-
-
-
- -->
-
-
 
 
 
@@ -165,7 +159,7 @@
 <br>
 <br>
 <div id="store">
-    <a class="nav-item nav-link" href="">Official Store</a>
+    <a class="nav-item nav-link" href="https://lilpeep.com/collections/all">Official Store</a>
     <div class="separador"></div>
 </div>
 <br><br>
@@ -187,10 +181,48 @@
 </p></div>
 </div>
 <br><br>
-<div class="separador"></div>
+<div class="separador-largo"></div>
+<br>
+<h3 id="gallery" class="subtitulos">Gallery</h3>
+<br>
+<div class="gallery">
+<div id="no1"class="grid-item">
+    <a href="images/lilpeep.jpg" data-fancybox="gallery" >
+        <img src="images/lilpeep.jpg" />
+    </a>
+</div>
+<div id="no2" class="grid-item">
+    <a href="images/lilpeep1.jpg" data-fancybox="gallery" >
+        <img src="images/lilpeep1.jpg" />
+    </a>
+</div>
+<div id="no3" class="grid-item">
+    <a href="images/lilpeep2.jpg" data-fancybox="gallery">
+        <img src="images/lilpeep2.jpg" />
+    </a>
+</div>
+<div id="no4" class="grid-item">
+    <a href="images/lilpeep3.jpg" data-fancybox="gallery">
+        <img src="images/lilpeep3.jpg" />
+    </a>
+</div>
+</div>
+<br>
+<div class="contenedor-boton-vermas">
+    <span class="vermas">See more</span>
+</div>
+<div class="contenedor-boton-vermenos">
+    <span class="vermas">See less</span>
+</div>
+<div class="contenedor-boton-volveraver">
+    <span class="vermas">See more</span>
+</div>
+<br>
+<div class="separador-largo"></div>
 <br>
 <h3 id="aboutus"class="subtitulos">About us</h3>
 <br>
+
 <div class="aboutus">
     <p id="text-aboutus"class="textos">Welcome. <br><br>
     
@@ -233,22 +265,6 @@
     <div class="separador"></div>
 </div>
 
-
-
-
-    
-
-
-   
-        
-
-
-
-
-
-    <script src="jquery-3.6.4.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="main.js"></script>
 </body>
 <footer>
     <br><br><br>
@@ -280,8 +296,10 @@
     <p id="mifooter">Copyright&copy; 2023- Developed by Alan Lasco- Todos los derechos reservados</p>
 
 </div>
-    
-
-    
+    <script src="jquery-3.6.4.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 </footer>
+
 </html>
