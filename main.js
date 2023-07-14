@@ -1,7 +1,6 @@
 var myCarousel = document.querySelector('#myCarousel')
 var carousel = new bootstrap.Carousel(myCarousel)
-carousel.interval = 1000;
-
+carousel.interval = 350;
 $(".carousel-item").mouseenter(function(){
     carousel.pause;
 })

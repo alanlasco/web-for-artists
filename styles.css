@@ -35,7 +35,7 @@ li a:hover {
   left:0px;
   right:0;
   bottom:0px;
-  margin-left:-75px;
+  margin-left:-150px;
 }
 
 .carousel-caption {
@@ -71,30 +71,7 @@ li a:hover {
 .nav{
   color:black;
 }
-/*.carousel-item {
 
-  border-radius: 15px 15px 15px 15px;
-  width: 950px;
-  height: 450px;
-  margin: 10px 10px 10px 10px;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 3px 13px 1px rgba(0, 0, 0, 0.09);
-  position:fixed;
-  right: 15%;
-  top: 125px;
-  left: 15%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-  background-color: rgba(224, 46, 180, 0.411);
-}*/
-/*#carrusel{
-    max-width: 950px;
-    min-width: 950px;
-    max-height: 450px;
-    min-height: 450px;
-}*/
 #separador-foto {
     display: grid;
     max-width: 100%;
@@ -105,16 +82,32 @@ li a:hover {
     background-attachment: fixed;
     background-color: #ffffff00;
   }
+.titulo-item{
+  background:rgba(0, 0, 0, 0.644);
+  width: 50%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  margin: 0 auto;
+  color: pink;
+  border-radius: 15px;
+  font-family: Futura, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+}
 
 
 
 .caja{
-    max-width: 950px;
-    max-height: 450px;
+    max-width: 854px;
+    max-height: 480px;
     min-width: auto;
     min-height: 450px;
     margin: 0 auto;
-    background-color: rgba(224, 46, 180, 0.411);
+    background: rgba(224, 46, 180, 0.411/50%);
+    background-image: url(images/fondo-carrusel.jpg);
     align-items: center;
     text-align: center;
     box-shadow: 0 3px 13px 1px rgba(0, 0, 0, 0.09);
@@ -427,20 +420,23 @@ DISPLAY: FLEX;
 
 #mifooter{
   font-size: 15px;
-  color:rgb(31, 30, 30);
-  font-weight: 150;
+  color:rgba(66, 66, 66, 0.692);
+  font-weight: 100;
     font-family: lato;
       font-style: normal;
 }
 
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 991px){
   .gallery{
     column-count: 3;
   }
+  .icono{
+    margin-left: 25px;
+  }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 768px) {
   .gallery {
     column-count: 2;
   }
