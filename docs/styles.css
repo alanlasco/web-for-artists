@@ -1,0 +1,443 @@
+/*Desktop-navbar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background: rgba(245, 135, 177, 0.904);
+}
+/*Side-navba
+
+
+
+
+/*End-side navbar*/
+.icono {
+  align-content: left;
+  width: 150px;
+  height: 100px;
+  left:0px;
+  right:0;
+  bottom:0px;
+  margin-left:-150px;
+}
+
+.carousel-caption {
+  position: fixed;
+  margin: auto 0;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(224, 46, 180, 0.411);
+}
+
+.socials {
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.subtitulos{
+  color: rgba(241, 163, 193, 0.89);
+  text-align: center;
+  font-family: lato, cursive;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.nav-link {
+  text-shadow: 4px rgb(190, 105, 162);
+  font-size: 17px;
+  font-family: lato, sans-serif;
+  font-weight: 600;
+  color: rgb(61, 53, 53);
+}
+
+.nav{
+  color:black;
+}
+
+#separador-foto {
+    display: grid;
+    max-width: 100%;
+    min-width: 100%;
+    height: 250px;
+    background-image: url(images/separador4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #ffffff00;
+  }
+.titulo-item{
+  background:rgba(0, 0, 0, 0.644);
+  width: 50%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  margin: 0 auto;
+  color: pink;
+  border-radius: 15px;
+  font-family: Futura, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+
+
+.caja{
+    max-width: 854px;
+    max-height: 480px;
+    min-width: auto;
+    min-height: 450px;
+    margin: 0 auto;
+    background: rgba(224, 46, 180, 0.411/50%);
+    background-image: url(images/fondo-carrusel.jpg);
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 3px 13px 1px rgba(0, 0, 0, 0.09);
+    border-radius: 15px 15px 15px 15px;
+    padding-top: 20px;
+}
+
+.separador{
+  width: 40px;
+  margin: 0 auto;
+  background:rgba(224, 46, 180, 0.411);
+  height: 2px;
+  border: none;
+}
+.separador-largo {
+  width: 90%;
+  margin: 0 auto;
+  background: rgba(224, 46, 180, 0.411);
+  height: 2px;
+  border: none;
+}
+#store{
+ 
+  margin: 0 auto;
+  text-align: center;
+}
+#store a:hover{
+  font-size: 1.3rem;  
+  color: rgba(245, 135, 177, 0.904);;
+}
+
+#carrusel{
+  display: grid;
+}
+
+.merch{
+DISPLAY: FLEX;
+
+  FLEX-WRAP: WRAP;
+
+  JUSTIFY-CONTENT: center;
+}
+
+.merch-images{
+  max-width: 350px;
+  max-height: 350px;
+}
+
+
+#merch-imagen1 {
+  width: 300px;
+  height: 300px;
+  max-width: 350px;
+  max-height: 350px;
+  background-size: cover;
+  /*sólo para ejemplo*/
+  background-image: url("images/merch1.jpg");
+}
+#merch-imagen2 {
+  width: 300px;
+  height: 300px;
+    max-width: 350px;
+      max-height: 350px;
+  background-size: cover;
+  /*sólo para ejemplo*/
+  background-image: url("images/merch2.jpg");
+}
+#merch-imagen3 {
+  width: 300px;
+  height: 300px;
+    max-width: 350px;
+      max-height: 350px;
+  background-size: cover;
+  /*sólo para ejemplo*/
+  background-image: url("images/merch3.jpg");
+}
+#merch-imagen4 {
+  width: 300px;
+  height: 300px;
+    max-width: 350px;
+      max-height: 350px;
+  background-size: cover;
+  /*sólo para ejemplo*/
+  background-image: url("images/merch4.jpg");
+}
+
+.info {
+  border-radius: 15px 15px 15px 15px;
+  margin-left: 10px;
+  margin-top: 120px;
+  position: absolute;
+  overflow: hidden;
+
+  height: 125px;
+  width: 290px;
+  background-color: rgba(241, 163, 193, 0.89);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+#merch-imagen1:hover .info {
+  opacity: 1;
+}
+#merch-imagen2:hover .info {
+  opacity: 1;
+}
+#merch-imagen3:hover .info {
+  opacity: 1;
+}
+#merch-imagen4:hover .info {
+  opacity: 1;
+}
+.headline {
+    text-shadow: 4px rgb(190, 105, 162);
+      font-size: 17px;
+      font-family: lato, sans-serif;
+      font-weight: 600;
+      color: rgb(61, 53, 53);
+
+  position: absolute;
+  font-size: 1.1rem;
+  margin-left: -75px;
+  margin-right: 15px;
+  margin-top: 15px;
+  transition: margin-left 0.2s;
+}
+
+#merch-imagen1:hover .headline {
+  margin-left: 50px;
+}
+#merch-imagen2:hover .headline {
+  margin-left: 50px;
+}#merch-imagen3:hover .headline {
+  margin-left: 50px;
+}#merch-imagen4:hover .headline {
+  margin-left: 50px;
+}
+.descripcion {
+  text-shadow: 4px rgb(190, 105, 162);
+    font-size: 17px;
+    font-family: lato, sans-serif;
+    font-weight: 600;
+    color: rgb(61, 53, 53);
+  text-align: center;
+  margin-top: 200px;
+  transition: margin-top 0.2s;
+}
+
+
+#merch-imagen1:hover .descripcion {
+  margin-top: 75px;
+}
+#merch-imagen2:hover .descripcion {
+  margin-top: 75px;
+}#merch-imagen3:hover .descripcion {
+  margin-top: 75px;
+}#merch-imagen4:hover .descripcion {
+  margin-top: 75px;
+}
+
+.news{
+  DISPLAY: FLEX;
+  
+    FLEX-WRAP: WRAP;
+  
+    JUSTIFY-CONTENT: center;
+  margin: 0 auto;
+  }
+#live-forever-img{
+  max-height: 400px;
+  max-width: 400px;
+} 
+#liveforever{
+      font-size: 3.5rem;
+      text-align: center;
+      font-family: Futura, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color:rgba(241, 163, 193, 0.89);
+}
+#live-forever-text{
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.contenedor-boton-vermas{
+    DISPLAY: FLEX;
+    FLEX-WRAP: WRAP;
+    JUSTIFY-CONTENT: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 25px;
+    width: 100px;
+    border-radius: 15px;
+    font-family: lato, cursive;
+    font-style: italic;
+    font-weight: 300;
+    color:grey;
+}
+.contenedor-boton-vermas:hover{
+  cursor: pointer;
+-webkit-box-shadow: 1px 4px 26px -3px rgba(245, 101, 231, 1);
+  -moz-box-shadow: 1px 4px 26px -3px rgba(245, 101, 231, 1);
+  box-shadow: 1px 4px 26px -3px rgba(245, 101, 231, 1);
+}
+.contenedor-boton-vermenos {
+  DISPLAY: none;
+  FLEX-WRAP: WRAP;
+  JUSTIFY-CONTENT: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 25px;
+  width: 100px;
+  border-radius: 15px;
+  font-family: lato, cursive;
+  font-style: italic;
+  font-weight: 300;
+  color: grey;
+}
+
+.contenedor-boton-vermenos:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 1px 4px 26px -3px rgba(245, 101, 231, 1);
+  -moz-box-shadow: 1px 4px 26px -3px rgba(245, 101, 231, 1);
+  box-shadow: 1px 4px 26px -3px rgba(245, 101, 231, 1);
+}
+.contenedor-boton-volveraver {
+  DISPLAY: none;
+  FLEX-WRAP: WRAP;
+  JUSTIFY-CONTENT: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 25px;
+  width: 100px;
+  border-radius: 15px;
+  font-family: lato, cursive;
+  font-style: italic;
+  font-weight: 300;
+  color: grey;
+}
+
+.contenedor-boton-volveraver:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 1px 4px 26px -3px rgba(245, 101, 231, 1);
+  -moz-box-shadow: 1px 4px 26px -3px rgba(245, 101, 231, 1);
+  box-shadow: 1px 4px 26px -3px rgba(245, 101, 231, 1);
+}
+.gallery{
+  width: 90%;
+  column-count: 4;
+  margin: 0 auto;
+}
+
+.grid-item img{
+  width: 100%;
+  height: auto;
+  margin:1em;
+}
+.grid-item img:hover{
+  width: 102%;
+  transition: all 0.2s;
+}
+.textos{       
+  font-family: Futura, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+}
+#text-aboutus{
+  font-size: 17px;
+  line-height: 1.5rem;
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.family{
+ margin-left: 50px;
+ margin-right: 50px;
+ display: flex;
+ align-items: center;
+
+}
+
+.family a:hover{
+  background-color:rgba(245, 135, 177, 0.904);
+  color: black;
+}
+
+.final{
+    DISPLAY: FLEX;
+      FLEX-WRAP: WRAP;
+      JUSTIFY-CONTENT: center;
+      margin: 0 auto;
+      width: 100%;
+      max-height: 500px;
+      background-color:rgba(245, 135, 177, 0.904) ;
+}
+
+#copy{
+      DISPLAY: FLEX;
+        FLEX-WRAP: WRAP;
+        JUSTIFY-CONTENT: center;
+        margin: 0 auto;
+        width: 100%;
+        max-height: 500px;
+        background-color: rgba(245, 135, 177, 0.904);
+}
+
+#mifooter{
+  font-size: 15px;
+  color:rgba(66, 66, 66, 0.692);
+  font-weight: 100;
+    font-family: lato;
+      font-style: normal;
+}
+
+
+@media only screen and (max-width: 991px){
+  .gallery{
+    column-count: 3;
+  }
+  .icono{
+    margin-left: 25px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .gallery {
+    column-count: 2;
+  }
+}
