@@ -1,9 +1,18 @@
-/*Desktop-navbar*/
+/*Esto sirve para borrar espacio en blanco a la derecha*/
 html,
 body {
   max-width: 100% !important;
   overflow-x: hidden !important;
+  padding-top: 60px ;
 }
+
+nav{
+  color: black;
+  height: 125px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .08);
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -27,8 +36,6 @@ li a {
 li a:hover {
   background: rgba(245, 135, 177, 0.904);
 }
-
-
 
 
 .icono {
@@ -63,9 +70,6 @@ li a:hover {
   color: rgb(61, 53, 53);
 }
 
-.nav{
-  color:black;
-}
 
 #separador-foto {
     display: grid;
@@ -91,7 +95,6 @@ li a:hover {
   font-weight: 600;
   font-size: 20px;
 }
-
 
 
 .caja{
