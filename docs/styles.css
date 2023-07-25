@@ -22,7 +22,33 @@ li a {
 li a:hover {
   background: rgba(245, 135, 177, 0.904);
 }
-/*Side-navba
+@media (min-width: 595px ) {
+.mi-iframe {
+    width: 100px;
+    height: 50px;
+  }
+}
+
+
+@media (min-width: 320px) {
+
+  .mi-iframe {
+    width: 200px;
+    height: 150px;
+  }
+
+}
+
+/* CSS pantalla 768px o superior */
+@media (min-width: 768px) {
+
+  .mi-iframe {
+    width: 500px;
+    height: 350px;
+  }
+
+}
+
 
 
 
