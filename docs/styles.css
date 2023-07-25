@@ -90,7 +90,7 @@ li a:hover {
 
 
 .caja{
-    max-width: 70%;
+    width: 70%;
     height: 350px;
     min-width: auto;
     min-height: auto;
@@ -107,13 +107,13 @@ li a:hover {
     padding-left: 35px;
 }
 
-@media only screen and (max-width: 480px) {
-  caja {
+@media only screen and (max-width: 768px) {
+  .caja {
     width: 100%;
   }
-}
-.flecha{
-  color:rgba(224, 46, 180, 0.411); ;
+  #separador-foto{
+    height: 100px;
+  }
 }
 
 .separador{
