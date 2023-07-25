@@ -106,6 +106,12 @@ li a:hover {
     padding-right: 35px;
     padding-left: 35px;
 }
+
+@media only screen and (max-width: 480px) {
+  caja {
+    width: 100%;
+  }
+}
 .flecha{
   color:rgba(224, 46, 180, 0.411); ;
 }
