@@ -113,7 +113,9 @@ li a:hover {
     padding-right: 35px;
     padding-left: 35px;
 }
-
+.gallery-slider {
+   display: none;
+  }
 @media only screen and (max-width: 768px) {
   .caja {
     width: 100%;
@@ -126,7 +128,13 @@ li a:hover {
     padding-left: 5px;
   }
   .gallery {
-   column-count: 2;
+   display: none;
+  }
+  #boton-galeria{
+    display: none;
+  }
+  .gallery-slider{
+    display: flex;
   }
 }
 @media only screen and (max-width: 991px) {
@@ -136,6 +144,12 @@ li a:hover {
 
   .icono {
     margin-left: 25px;
+  }
+
+}
+@media screen and (min-width: 1400px) {
+  #separador-foto {
+    background-image: url(images/separador3.jpg);
   }
 }
 
@@ -323,6 +337,18 @@ DISPLAY: FLEX;
   margin-left: 50px;
   margin-right: 50px;
 }
+.gallery-slider{
+    width: 100%;
+    margin: 0px auto;
+    max-width: 99%;
+    max-height: 400px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+
 
 .vermas{
   padding: 0;
@@ -446,9 +472,8 @@ DISPLAY: FLEX;
         margin: 0 auto;
         width: 100%;
         max-height: 500px;
-        background-color: rgba(245, 135, 177, 0.904);
+        background-color: rgba(245, 135, 177, 0.904); 
 }
-
 #mifooter{
   font-size: 15px;
   color:rgba(66, 66, 66, 0.596);
